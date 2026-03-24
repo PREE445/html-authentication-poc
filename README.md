@@ -1,112 +1,113 @@
- Simple Login System (HTML Only)
+🔐 Bootstrap Authentication UI
 
-This project is a basic multi-page Login System developed using pure HTML as part of the FS Java Internship Assignment.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5">
+  <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3">
+  <img src="https://img.shields.io/badge/Bootstrap-5-purple?style=for-the-badge&logo=bootstrap">
+  <img src="https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge">
+</p>
 
-It demonstrates page navigation between common authentication screens without using CSS, JavaScript, or a backend — focusing on **HTML structure and flow.
-
- Project Structure
-
-assignment2/
-│
-├── login.html        → Login Page
-├── register.html     → Registration Page
-├── forgot.html       → Forgot Password Page
-├── reset.html        → Reset Password Page
-└── dashboard.html    → Dashboard Page
-
- 
- Pages Included
-
- Login Page (`index.html`)
-
-* Accepts Username and Password
-* Redirects to Dashboard on login
-* Provides links to:
-
-  * Registration Page
-  * Forgot Password Page
-
- Registration Page (`register.html`)
-
-* Collects:
-
-  * Name
-  * Email ID
-  * Phone Number
-  * Password & Confirm Password
-* Redirects back to Login after registration.
-
- Forgot Password Page (`forgot.html`)
-
-* User enters registered Email ID
-* Redirects to Reset Password page.
-
- Reset Password Page (`reset.html`)
-
-* Allows user to:
-
-  * Enter New Password
-  * Confirm Password
-* Redirects back to Login page.
-
- Dashboard Page (`dashboard.html`)
-
-* Displays Welcome message after login
-* Includes Logout button
-* Logout redirects to Login page.
-
- Navigation Flow
-
-```
-Login → Dashboard → Logout → Login
-
-Register → Login
-
-Forgot Password → Reset Password → Login
-
-
-
-This project is intentionally built without styling or scripting to demonstrate **basic HTML form handling and page linking**.
-
-
- How to Run the Project Locally
-
-1. Clone the repository:
-
-```
-git clone [https://github.com/your-username/fs-java-internship.git](https://github.com/PREE445/html-authentication-poc)
-```
-
-2. Move into the folder:
-
-```
-cd assignment2
-```
-
-3. Open `login.html` in any browser
-   **OR** run using XAMPP:
-
-
+<p align="center">
+  A modern and responsive Authentication UI built using <b>HTML, CSS & Bootstrap 5</b><br>
+  Designed with a clean glassmorphism UI and smooth user experience ✨
+</p>
 
 ---
 
- Git Workflow Used
+ ✨ Features
+
+✔ Login Page
+✔ Registration Page
+✔ Forgot Password
+✔ Reset Password (with toggle 👁)
+✔ Dashboard UI
+✔ Responsive Design (Mobile + Tablet + Desktop)
+✔ Custom Glassmorphism UI
+✔ Smooth Animations & Hover Effects
+
+---
+
+🛠️ Tech Stack
+
+| Technology      | Usage                   |
+| --------------- | ----------------------- |
+| HTML5           | Structure               |
+| CSS3            | Styling                 |
+| Bootstrap 5     | Layout & Responsiveness |
+| Bootstrap Icons | Icons                   |
+| Google Fonts    | Typography              |
+
+---
+
+📁 Project Structure
 
 ```
-git add .
-git commit -m "Updated project"
-git push
+project/
+│
+├── index.html
+├── register.html
+├── forgot-password.html
+├── reset-password.html
+├── dashboard.html
+├── styles.css
+├── README.md
+└── screenshots/
 ```
 
+---
 
- Learning Outcome
+📸 Screenshots
 
-Through this project, we understood:
+ 🔐 Login Page
 
-* Creating multiple HTML pages
-* Using `<form>` and `action` for navigation
-* Structuring a small web application
-* Managing code using Git & GitHub
-* Version control workflow (Add → Commit → Push)
+![Login](screenshots/login.png)
+
+ 📝 Registration Page
+
+![Register](screenshots/register.png)
+
+ 🔁 Forgot Password
+
+![Forgot](screenshots/forgot.png)
+
+🔐 Reset Password
+
+![Reset](screenshots/reset.png)
+
+ 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Open project
+cd your-repo-name
+
+# Run
+Open index.html in browser
+```
+
+ 🌐 GitHub Repository
+
+https://github.com/PREE445/html-authentication-poc
+---
+
+👨‍💻 Author
+Preeti Iti
+
+ Highlights
+
+✨ Clean UI Design
+✨ Fully Responsive
+✨ Beginner-friendly project
+✨ No external templates used
+
+---
 
 
