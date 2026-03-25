@@ -56,23 +56,7 @@ project/
 
 ---
 
-📸 Screenshots
 
- 🔐 Login Page
-
-![Login](screenshots/login.png)
-
- 📝 Registration Page
-
-![Register](screenshots/register.png)
-
- 🔁 Forgot Password
-
-![Forgot](screenshots/forgot.png)
-
-🔐 Reset Password
-
-![Reset](screenshots/reset.png)
 
  📊 Dashboard
 
